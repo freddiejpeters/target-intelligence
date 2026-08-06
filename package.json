@@ -1,0 +1,22 @@
+{
+  "name": "target-intelligence-case-study",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.13",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.10"
+  }
+}
+
